@@ -1,34 +1,19 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## SwissBorg Web Tech Challenge
 
-## Getting Started
-
-First, run the development server:
+# Getting Started
 
 ```bash
 npm run dev
-# or
-yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The task was to diplay two tables using data coming from the mock HTTP API.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+# Tools used
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+- [Next.js](https://nextjs.org) - It's a React framework with some optimizations. Like file system base routing. I used it in my current company.
+- [Typescript](https://www.typescriptlang.org/) - TypeScript is JavaScript with syntax for types. Not an expert in Typescript but I have good knowledge of types languages so It's wasn't too complicated too use.
+- [AntDesign UI](https://ant.design/) - React UI library. I used it in my current company.
+- [Axios](https://axios-http.com/) - Promise based HTTP client for the browser and node.js. I used it in my current company.
+- [Dayjs](https://day.js.org/) - Fast 2kB alternative to Moment.js with the same modern API. I used it in my current company.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Added some code too fetch data at specific interval to observe both table values changing. Not sure If I had to do that...
