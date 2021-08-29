@@ -6,7 +6,7 @@
 npm run dev
 ```
 
-The task was to diplay two tables using data coming from the mock HTTP API.
+The task was to display two tables using data coming from the mock HTTP API.
 
 # Tools used
 
